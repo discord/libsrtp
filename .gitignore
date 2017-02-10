@@ -30,7 +30,7 @@ Root
 autom4te.cache
 config.log
 config.status
-crypto/include/config.h
+#crypto/include/config.h
 crypto/test/aes_calc
 crypto/test/cipher_driver
 crypto/test/datatypes_driver
