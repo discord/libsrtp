@@ -26,7 +26,7 @@
 #define HAVE_ARPA_INET_H 1
 
 /* Define to 1 if you have the <byteswap.h> header file. */
-#define HAVE_BYTESWAP_H 1
+/* #undef HAVE_BYTESWAP_H */
 
 /* Define to 1 if you have the `inet_aton' function. */
 #define HAVE_INET_ATON 1
@@ -47,7 +47,7 @@
 /* #undef HAVE_LIBSOCKET */
 
 /* Define to 1 if you have the <machine/types.h> header file. */
-/* #undef HAVE_MACHINE_TYPES_H */
+#define HAVE_MACHINE_TYPES_H 1
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
@@ -116,7 +116,7 @@
 /* #undef HAVE_WINSOCK2_H */
 
 /* Define to use X86 inlined assembly code */
-#define HAVE_X86 1
+/* #undef HAVE_X86 */
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT "https://github.com/cisco/libsrtp/issues"
